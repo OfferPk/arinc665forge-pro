@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" height="100%">
+  <rect width="960" height="540" fill="#0a0e17"/>
+  
+  <!-- Header Bar -->
+  <rect x="20" y="20" width="920" height="45" rx="6" fill="#111827" stroke="#2e3b52"/>
+  <text x="35" y="48" font-family="monospace" font-size="16" font-weight="bold" fill="#ffffff">ARINC665Forge Pro &mdash; Loadable Software Airplane Parts (LSAP) Studio</text>
+  <rect x="750" y="30" width="170" height="25" rx="12" fill="rgba(34,197,94,0.2)" stroke="#22c55e"/>
+  <text x="765" y="47" font-family="monospace" font-size="11" font-weight="bold" fill="#4ade80">100% COMPLIANT</text>
+
+  <!-- Left: Tree Explorer -->
+  <rect x="20" y="80" width="360" height="440" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="2"/>
+  <text x="35" y="105" font-family="monospace" font-size="11" font-weight="bold" fill="#cbd5e1">MEDIA SET DIRECTORY STRUCTURE</text>
+
+  <rect x="35" y="120" width="330" height="150" rx="6" fill="#030712" stroke="#1e293b"/>
+  <text x="45" y="140" font-family="monospace" font-size="10" fill="#38bdf8">&boxvr;&boxh; MEDIA_SET/ (BOE-FMC-2611-0001)</text>
+  <text x="45" y="160" font-family="monospace" font-size="10" fill="#94a3b8">&boxv;&nbsp;&nbsp;&boxvr;&boxh; LOADS.LST</text>
+  <text x="45" y="180" font-family="monospace" font-size="10" fill="#94a3b8">&boxv;&nbsp;&nbsp;&boxvr;&boxh; FILES.LST</text>
+  <text x="45" y="200" font-family="monospace" font-size="10" fill="#38bdf8">&boxv;&nbsp;&nbsp;&boxur;&boxh; JEP-NAV-2611-0001/</text>
+  <text x="45" y="220" font-family="monospace" font-size="10" fill="#ffb800">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&boxvr;&boxh; JEP-NAV-2611-0001.LUH (Header)</text>
+  <text x="45" y="240" font-family="monospace" font-size="10" fill="#cbd5e1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&boxvr;&boxh; AIRAC2611.DAT (14.68 MB)</text>
+  <text x="45" y="258" font-family="monospace" font-size="10" fill="#cbd5e1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&boxur;&boxh; TERMINAL_PROC.BIN (8.38 MB)</text>
+
+  <!-- Presets -->
+  <rect x="35" y="285" width="160" height="35" rx="4" fill="#0284c7" stroke="#38bdf8"/>
+  <text x="50" y="307" font-family="monospace" font-size="10" font-weight="bold" fill="#ffffff">FMS NAV (AIRAC)</text>
+  <rect x="205" y="285" width="160" height="35" rx="4" fill="#1e293b" stroke="#334155"/>
+  <text x="225" y="307" font-family="monospace" font-size="10" fill="#cbd5e1">FCC FBW OFP</text>
+
+  <rect x="35" y="330" width="160" height="35" rx="4" fill="#1e293b" stroke="#334155"/>
+  <text x="55" y="352" font-family="monospace" font-size="10" fill="#cbd5e1">TAWS TERRAIN</text>
+  <rect x="205" y="330" width="160" height="35" rx="4" fill="#1e293b" stroke="#334155"/>
+  <text x="220" y="352" font-family="monospace" font-size="10" fill="#cbd5e1">FADEC EEC OFP</text>
+
+  <!-- Target Compatibility Box -->
+  <rect x="35" y="380" width="330" height="120" rx="6" fill="#070d18" stroke="#1e293b"/>
+  <text x="45" y="405" font-family="monospace" font-size="10" font-weight="bold" fill="#cbd5e1">TARGET LRU COMPATIBILITY VERIFIER</text>
+  <rect x="45" y="418" width="230" height="30" rx="4" fill="#0f172a" stroke="#334155"/>
+  <text x="55" y="438" font-family="monospace" font-size="11" fill="#ffb800">B787-FMC-L</text>
+  <rect x="285" y="418" width="80" height="30" rx="4" fill="#047857" stroke="#10b981"/>
+  <text x="300" y="438" font-family="monospace" font-size="10" font-weight="bold" fill="#ffffff">VERIFY</text>
+  <text x="45" y="475" font-family="monospace" font-size="10" font-weight="bold" fill="#4ade80">&bull; LRU 'B787-FMC-L' COMPATIBLE WITH LOAD TARGETS</text>
+
+  <!-- Right Dashboards -->
+  <rect x="400" y="80" width="540" height="150" rx="8" fill="#111827" stroke="#2e3b52"/>
+  <text x="415" y="105" font-family="monospace" font-size="12" font-weight="bold" fill="#cbd5e1">ARINC 665-5 LOAD SPECIFICATION &amp; CRYPTOGRAPHY</text>
+  
+  <rect x="415" y="120" width="115" height="50" rx="4" fill="#070d18"/>
+  <text x="435" y="145" font-family="monospace" font-size="14" font-weight="bold" fill="#ffffff">0x4D2A</text>
+  <text x="425" y="162" font-family="monospace" font-size="8" fill="#64748b">LOAD CRC-16 (CCITT)</text>
+
+  <rect x="545" y="120" width="115" height="50" rx="4" fill="#070d18"/>
+  <text x="560" y="145" font-family="monospace" font-size="14" font-weight="bold" fill="#ffffff">0x8B7C104E</text>
+  <text x="550" y="162" font-family="monospace" font-size="8" fill="#64748b">LOAD CRC-32 (IEEE)</text>
+
+  <rect x="675" y="120" width="115" height="50" rx="4" fill="#070d18"/>
+  <text x="705" y="145" font-family="monospace" font-size="14" font-weight="bold" fill="#ffffff">2 FILES</text>
+  <text x="690" y="162" font-family="monospace" font-size="8" fill="#64748b">PAYLOAD COUNT</text>
+
+  <rect x="805" y="120" width="115" height="50" rx="4" fill="#070d18"/>
+  <text x="825" y="145" font-family="monospace" font-size="14" font-weight="bold" fill="#4ade80">23.06 MB</text>
+  <text x="815" y="162" font-family="monospace" font-size="8" fill="#64748b">TOTAL DATA SIZE</text>
+
+  <text x="415" y="195" font-family="monospace" font-size="10" fill="#4ade80">&bull; Load Part Number: JEP-NAV-2611-0001 (Valid Syntax) &bull; Format: 0x8005 (ARINC 665-5)</text>
+  <text x="415" y="212" font-family="monospace" font-size="10" fill="#4ade80">&bull; SHA-256 Digest: e4b0242ac120002167d498c0b5e28a9b... &bull; FAA AC 20-145 Signed</text>
+
+  <!-- Header Inspector -->
+  <rect x="400" y="245" width="540" height="275" rx="8" fill="#111827" stroke="#2e3b52"/>
+  <text x="415" y="270" font-family="monospace" font-size="12" font-weight="bold" fill="#cbd5e1">BINARY HEADER FILE (.LUH) FIELD INSPECTION</text>
+
+  <rect x="415" y="285" width="510" height="150" rx="4" fill="#030712" stroke="#1e293b"/>
+  <text x="425" y="305" font-family="Courier, monospace" font-size="9" fill="#38bdf8">HEADER FORMAT VERSION   : 0x8005 (ARINC 665-5)</text>
+  <text x="425" y="322" font-family="Courier, monospace" font-size="9" fill="#38bdf8">LOAD PART NUMBER        : JEP-NAV-2611-0001</text>
+  <text x="425" y="339" font-family="Courier, monospace" font-size="9" fill="#38bdf8">DESCRIPTION             : B787-9 FMS Worldwide AIRAC Navigation Database</text>
+  <text x="425" y="356" font-family="Courier, monospace" font-size="9" fill="#38bdf8">TARGET HARDWARE (LRUs)  : B787-FMC-L, B787-FMC-R</text>
+  <text x="425" y="373" font-family="Courier, monospace" font-size="9" fill="#38bdf8">FILE 1: AIRAC2611.DAT [14.68 MB] CRC-32: 0x5C89F10A</text>
+  <text x="425" y="390" font-family="Courier, monospace" font-size="9" fill="#38bdf8">FILE 2: TERMINAL_PROC.BIN [8.38 MB] CRC-32: 0x1A4F99BE</text>
+  <text x="425" y="407" font-family="Courier, monospace" font-size="9" fill="#38bdf8">SECURITY STATUS         : DIGITAL_SIGNATURE_BLOCK_VERIFIED (RSA-SHA256)</text>
+  <text x="425" y="424" font-family="Courier, monospace" font-size="9" fill="#38bdf8">MEDIA SET SPECIFICATION : BOE-FMC-2611-0001 (DISK 1 OF 1)</text>
+
+  <rect x="415" y="450" width="510" height="55" rx="4" fill="#030712" stroke="#1f2937"/>
+  <text x="430" y="475" font-family="monospace" font-size="11" font-weight="bold" fill="#38bdf8">NORMATIVE AIRWORTHINESS AUDIT: 10/10 CRITERIA VERIFIED (100.0%)</text>
+  <text x="430" y="495" font-family="monospace" font-size="10" fill="#cbd5e1">Complies with ARINC Report 665-5, FAA AC 20-145, and EASA AMC 20-115D.</text>
+</svg>
